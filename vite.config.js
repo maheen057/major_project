@@ -4,7 +4,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   base: "/major_project/",
-
   plugins: [react()],
   build: {
     rollupOptions: {
